@@ -11,4 +11,4 @@ services:
     environment:
       WORLD_WIDTH: 20000
       WORLD_HEIGHT: 20000
-      ASTEROIDS_DENSITY: 1.2
+      ASTEROIDS_DENSITY: 1.25
