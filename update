@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker pull harentius/attraction-wars-client
+docker pull harentius/attraction-wars-server
+
+docker-compose down -v --rmi local
+docker-compose up -d
