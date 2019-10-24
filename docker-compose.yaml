@@ -12,3 +12,8 @@ services:
       WORLD_WIDTH: 20000
       WORLD_HEIGHT: 20000
       ASTEROIDS_DENSITY: 1.25
+
+  bots:
+    image: harentius/attraction-wars-bots
+    environment:
+      SERVER_URL: http://aw-srv.folkprog.net
