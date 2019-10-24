@@ -17,4 +17,4 @@ services:
   bots:
     image: harentius/attraction-wars-bots
     environment:
-      SERVER_URL: http://aw-srv.folkprog.net
+      SERVER_URL: https://aw-srv.folkprog.net
