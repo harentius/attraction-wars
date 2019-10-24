@@ -4,6 +4,7 @@ services:
     image: harentius/attraction-wars-client
     ports:
       - 15670:80
+
   server:
     image: harentius/attraction-wars-server
     ports:
