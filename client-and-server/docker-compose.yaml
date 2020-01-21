@@ -1,11 +1,13 @@
 version: '3.7'
 services:
   client:
+    restart: always
     image: harentius/attraction-wars-client
     ports:
       - 15670:80
 
   server:
+    restart: always
     image: harentius/attraction-wars-server
     ports:
       - 15671:80
@@ -13,10 +15,3 @@ services:
       WORLD_WIDTH: 20000
       WORLD_HEIGHT: 20000
       ASTEROIDS_DENSITY: 1.25
-
-  bots:
-    image: harentius/attraction-wars-bots
-    links:
-      - server
-    environment:
-      SERVER_URL: https://aw-srv.folkprog.net

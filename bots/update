@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker pull harentius/attraction-wars-bots
+
+docker-compose down --rmi=all
+docker-compose up -d
+docker system prune -f

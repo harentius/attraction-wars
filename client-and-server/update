@@ -2,7 +2,7 @@
 
 docker pull harentius/attraction-wars-client
 docker pull harentius/attraction-wars-server
-docker pull harentius/attraction-wars-bots
 
-docker-compose down -v --rmi local
+docker-compose down --rmi=all
 docker-compose up -d
+docker system prune -f

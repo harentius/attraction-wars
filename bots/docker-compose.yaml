@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  bots:
+    restart: always
+    image: harentius/attraction-wars-bots
+    environment:
+      SERVER_URL: https://aw-srv.folkprog.net
