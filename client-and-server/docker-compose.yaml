@@ -12,6 +12,6 @@ services:
     ports:
       - 15671:80
     environment:
-      WORLD_WIDTH: 20000
-      WORLD_HEIGHT: 20000
+      WORLD_WIDTH: 15000
+      WORLD_HEIGHT: 15000
       ASTEROIDS_DENSITY: 1.25
